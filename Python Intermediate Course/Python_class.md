@@ -180,7 +180,3 @@ temp.get_engine_too()
     Engine : Gasoline
 
 
-
-```python
-
-```
