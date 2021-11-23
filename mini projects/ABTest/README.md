@@ -14,6 +14,9 @@ By analyzing these stuffs, you can choose better design between A and B.
 
 ### Blueprint
 
+`Blueprint` helps us to control various directories and various source codes together.  
+In this project, I will use `MVC pattern`, so `Blueprint` must be used.
+
 - **In main file**
 
 ``` python
@@ -46,3 +49,6 @@ def blog():
 ```
 
 ### flask_login
+
+`flask_login` checks the user is authenticated or not, and controls HTTP responses about user info.  
+If one user logins, this library helps to convert login info to `User Object`, then add it to `LoginManager()` and create the session.  
